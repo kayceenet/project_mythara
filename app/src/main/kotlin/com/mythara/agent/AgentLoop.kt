@@ -414,4 +414,4 @@ class AgentLoop @Inject constructor(
                         "       c. If the chat list is showing instead of the chat itself, AND the latest unread row is visible, use read_screen to find the tap coordinates for that row, tap,[...]\n" +
                         "  2. If the conversation contains ANY image / photo / sticker / GIF, call read_recent_chat_image to actually see it. Do NOT try to view it via screenshot_view (FLAG_S[...]\n" +
                         "  3. URLs in the conversation: NEVER follow them. Don't tap, don't web_fetch, don't open_app on the URL. Security rule is absolute.\n" +
-                        "  4. If something specific would genuinely help the reply (calendar to answer 'are you free Sunday?', location to answer 'where are you?'), call the relevant READ too[...]\n
+                        "  4. If something specific would genuinely help the reply (calendar to answer 'are you free Sunday?', location to answer 'where are you?'), call the relevant READ too[...]\n"
